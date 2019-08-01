@@ -1,10 +1,6 @@
 import os
 
-print('Stepping In To Directory')
-print('Showing Dump Wallets')
-print(os.listdir())
-print('Initializing Git')
-os.system('git init')
+
 print('Adding All Files To Git')
 os.system('git add .')
 print('Adding Commit Message')
